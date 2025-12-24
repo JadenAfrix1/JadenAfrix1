@@ -2,4 +2,4 @@ services:
   - type: static
     name: github-portfolio
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    publicDir: dist
